@@ -1,0 +1,79 @@
+<!-- {{employeehold|json}} -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <img class="editimg" [src]="employeehold.photourl" alt="" >
+        </div>
+
+<div class="col-6">
+                     <!-- form -->
+                     <form>
+                        <div class="form-floating mb-3">
+                            <input [(ngModel)]="employeehold.name" name="name" type="text" class="form-control" id="floatingfullname" placeholder="Full Name">
+                            <label for="floatingInput">Full Name</label>
+                          </div>
+        
+                          <!-- Photo Url -->
+        
+                          <div class="form-floating mb-3">
+                            <input [(ngModel)]="employeehold.email"  name="email" type="text" class="form-control" id="floatingphotourl" placeholder="Photo url">
+                            <label for="floatingphoto">Email address</label>
+                          </div>
+                        
+                          <!-- email -->
+        
+                          <div class="form-floating mb-3">
+                            <input [(ngModel)]="employeehold.phone"  name="email" type="phone" class="form-control" id="floatingemail" placeholder="name@example.com">
+                            <label for="floatingInput">Mobile</label>
+                          </div>
+        
+                          
+                          <!-- Mobile -->
+        
+                          <div class="form-floating mb-3">
+                            <input [(ngModel)]="employeehold.Position" name="Position" type="text" class="form-control" id="floatingmobile" placeholder="Mobile">
+                            <label for="floatingphoto">Position</label>
+                          </div>
+        
+                          <!-- Company Name -->
+                          <div class="form-floating mb-3">
+                            <input [(ngModel)]="employeehold.dateofjoining" name="dateofjoining" type="date" class="form-control" id="floatingcompany" placeholder="Company Name">
+                            <label for="floatingphoto">Date of joining</label>
+                          </div>
+        
+                          <!-- Title -->
+        
+                          <div class="form-floating mb-3">
+                            <input [(ngModel)]="employeehold.photourl" name="title" type="email" class="form-control" id="floatingtitle" placeholder="Title">
+                            <label for="floatingInput">Photo link</label>
+                          </div>
+        
+                          <!-- group -->
+                          <div class="mb-3 form-floating">
+                            <select [(ngModel)]="employeehold.GroupId" name="groupid" class="form-control">
+                                <option  value="" selected hidden disabled>Select Department</option>
+                                <!-- <option>select</option> -->
+                                <option value="" *ngFor="let grp of group">{{grp.name}}</option>
+                                <!-- <option value="">HR Department</option>
+                                <option value="">HR Department</option>
+                                <option value="">HR Department</option> -->
+
+
+                            </select>
+                          </div>
+        
+        
+                          <!-- button -->
+                          <div class="text-center">
+                            <button (click)="updateEmployee()" routerLink="/EMPLOYEEMANAGEMENTSYSTEM/CurrentEmployees" class="btn7">SUBMIT</button>
+                          </div>
+               
+               <!-- </div>
+         -->
+        <!-- </div> -->
+        </form>   
+</div>
+
+
+

@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="row">
+    <div class="col-6">
+            <img class="viewimg" width="75%" height="350px" [src]="employee.photourl" alt=""> 
+        </div>
+        <div class="col-6">
+            <ul class="list-group list-group-flush mt-5">
+                <li class="list-group-item">FULL NAME : {{employee.name}}</li>
+                <li class="list-group-item">E-MAIL : {{employee.email}}</li>
+                <li class="list-group-item">MOBILE : {{employee.phone}}</li>
+                <li class="list-group-item">POSITION : {{employee.Position}}</li>
+                <li class="list-group-item">DEPARTMENT : {{groupName}}</li>
+                <li class="list-group-item">DATE OF JOINING : {{employee.dateofjoining}}</li>
+              </ul>
+              <!-- Redirect to mainpage -->
+              <button routerLink="/" class="btn8">Back to home</button>
+        </div>
+    </div>
+</div>

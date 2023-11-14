@@ -1,0 +1,12 @@
+.btn7{
+    width: 153px;
+    height: 52px;
+    border-radius: 7px;
+    border: 2px solid #f09413;
+    margin-top: 2rem;
+    background-color: white;
+}
+.btn7:hover{
+    background-color:#f09413 ;
+    color: white;
+}

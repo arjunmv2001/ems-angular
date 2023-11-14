@@ -1,0 +1,33 @@
+.container-fluid img{
+width: 100px;
+height: 60px;
+}
+.navbar-nav {
+    margin-left: 400px;
+}
+.navbar-nav a{
+    margin: 13px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bolder;
+}
+.navbar-nav a:hover{
+    color: #f09413;
+}
+span a{
+    
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    font-family: 'Tektur', cursive;
+}
+.btn1{
+    border: 1px solid #f09413;
+    height: 39.1px;
+    padding-top: 0px;
+    color: white ;
+    background-color: #f09413;
+    border-radius: 4px;
+    width: 95px;
+    margin-top: 13px;
+}

@@ -1,0 +1,18 @@
+.btn8{
+    width: 153px;
+    height: 52px;
+    border-radius: 7px;
+    border: 2px solid #f09413;
+    margin-top: 2rem;
+    background-color: white;
+}
+.btn8:hover{
+    background-color:#f09413 ;
+    color: white;
+}
+.viewimg{
+    width: 340px;
+    height: 256px;
+    margin-top: 54px;
+    margin-left: 69px;
+}

@@ -1,0 +1,101 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Ram",
+      "email": "ram@gmail.com",
+      "phone": "9876543210",
+      "Position": "Sales Executive",
+      "photourl": "https://media.licdn.com/dms/image/D4D12AQEMoydZTTW8tQ/article-cover_image-shrink_720_1280/0/1662367153745?e=2147483647&v=beta&t=TdTaVSCq6cG-X2PeO1cgYYNCwy0Mc_YO52wgHfT-04s",
+      "GroupId": "1",
+      "dateofjoining": "10/5/2022"
+    },
+    {
+      "id": 2,
+      "name": "Amal",
+      "email": "amal@gmail.com",
+      "phone": "9876543211",
+      "Position": "Billing Staff",
+      "photourl": "https://fj-employer-blog.s3.amazonaws.com/employer-blog/wp-content/uploads/2020/08/25093203/benefits-of-flexible-work-for-companies-and-employees_.jpg",
+      "dateofjoining": "18/08/2023"
+    },
+    {
+      "id": 3,
+      "name": "Anju Krishna",
+      "email": "anju@gmail.com",
+      "phone": "9876543212",
+      "Position": "Accountant",
+      "photourl": "https://www.nordstudio.ch/wp/wp-content/uploads/2018/02/mitarbeiter-business-fotos_06.jpg",
+      "GroupId": "4",
+      "dateofjoining": "20/5/2021"
+    },
+    {
+      "id": 4,
+      "name": "Anoop menon",
+      "email": "anoop@gmail.com",
+      "phone": "9876543214",
+      "Position": "Manager",
+      "photourl": "https://cdn.shrm.org/image/upload/c_crop%2Ch_1192%2Cw_2121%2Cx_0%2Cy_99/c_fit%2Cf_auto%2Cq_auto%2Cw_767/v1/Employee%20Relations/iStock-625869812_ho8v2c?databtoa=eyIxNng5Ijp7IngiOjAsInkiOjk5LCJ4MiI6MjEyMSwieTIiOjEyOTEsInciOjIxMjEsImgiOjExOTJ9fQ%3D%3D",
+      "GroupId": "4",
+      "dateofjoining": "12/5/2005"
+    },
+    {
+      "GroupId": "2",
+      "name": "Rahul Krishna",
+      "email": "rahul@gmail.com",
+      "phone": "987654213",
+      "Position": "Sales Manager",
+      "dateofjoining": "2006-02-20",
+      "photourl": "https://cdnapi.edenredrewards.co.in/wp-content/uploads/2023/05/Mask-Group-141290-1.png",
+      "id": 5
+    },
+    {
+      "GroupId": "",
+      "name": "Kiran Kumar",
+      "email": "kiran@gmail.com",
+      "phone": "9875641235",
+      "Position": "Designer",
+      "dateofjoining": "2022-05-16",
+      "photourl": "https://www.sripruthvidevelopers.com/wp-content/uploads/2022/03/rocco-roxie-employee-headshots-4.jpg",
+      "id": 6
+    },
+    {
+      "GroupId": "1",
+      "name": "Anjali Kumar",
+      "email": "anjali@gmail.com",
+      "phone": "9841235689",
+      "Position": "HR Recruiter",
+      "dateofjoining": "2016-05-10",
+      "photourl": "https://static.vecteezy.com/system/resources/previews/007/486/093/original/portrait-of-happy-redhaired-woman-employee-in-optical-glasses-has-satisfied-expression-works-with-modern-gadgets-waits-for-meeting-with-colleague-prepares-accounting-report-sits-in-own-cabinet-free-photo.jpg",
+      "id": 7
+    },
+    {
+      "GroupId": "2",
+      "name": "Anamika",
+      "email": "anamika@gmail.com",
+      "phone": "9852314563",
+      "Position": "Sales Executive",
+      "dateofjoining": "2022-03-23",
+      "photourl": "https://t4.ftcdn.net/jpg/03/38/14/65/360_F_338146560_yZI4JfSxfbcd5Ow7hearOizfUlSJJgJ7.jpg",
+      "id": 8
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "HR Department"
+    },
+    {
+      "id": "2",
+      "name": "Sales Department"
+    },
+    {
+      "id": "3",
+      "name": "IT Department"
+    },
+    {
+      "id": "4",
+      "name": "Accounts Department"
+    }
+  ]
+}

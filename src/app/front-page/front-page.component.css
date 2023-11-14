@@ -1,0 +1,131 @@
+#ban{
+    background-image: linear-gradient(
+        55deg,
+        hsl(29, 79%, 58%) 0%,
+        hsl(30deg 78% 56%) 5%,
+        hsl(32deg 75% 57%) 11%,
+        hsl(34deg 72% 58%) 18%,
+        hsl(33deg 67% 65%) 26%,
+        hsl(31deg 64% 79%) 36%,
+        hsl(29deg 61% 89%) 46%,
+        hsl(28deg 59% 97%) 57%,
+        hsl(0deg 0% 100%) 68%,
+        hsl(0deg 0% 100%) 79%,
+        hsl(0deg 0% 100%) 90%,
+        hsl(0deg 0% 100%) 100%
+      );
+      height: 600px;
+}
+#banner img{
+    width: 99%;
+    height: 452px;
+    border-radius: 53px;
+    margin-top: 54px;
+}
+.col-6{
+    height: 550px;
+}
+.banner-head{
+    font-size: 50px;
+    margin: 90px;
+}
+.banner-head1{
+    font-size: 17px;
+    margin-left: 88px;
+    margin-top: -49px;
+}
+.cardh{
+    font-size: 18px;
+    color: #1e709d;
+    margin-top: 17px;
+}
+#card00{
+    height: 300px;
+    margin: 44px;
+}
+.cardp{
+    font-size: 14px;
+    margin-top: 50px;
+}
+.cardp2{
+    margin-top: 25px;
+}
+.cardheading h1{
+    font-size: 32px;
+    text-align: center;
+    padding-top: 54px;
+    color: #4b346c;
+}
+.cardheading2 h1{
+    font-size: 32px;
+    text-align: center;
+    padding-top: 54px;
+    color: #4c6fd9;
+}
+.soloutionimg{
+    height: 62px;
+    width: 57px;
+    margin: 14px;
+}
+#servicess h3{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 21px;
+}
+#zz{
+    margin: 20px;
+}
+#zz img{
+    height: 140px;
+    width: 152px;
+    margin-top: 10px;
+    margin-left: 44px;
+}
+#ban1{
+    background-image: linear-gradient(
+  45deg,
+  hsl(60deg 5% 96%) 0%,
+  hsl(60deg 3% 96%) 8%,
+  hsl(60deg 1% 95%) 17%,
+  hsl(0deg 0% 94%) 25%,
+  hsl(27deg 48% 88%) 33%,
+  hsl(28deg 60% 81%) 42%,
+  hsl(29deg 63% 74%) 50%,
+  hsl(30deg 70% 69%) 58%,
+  hsl(31deg 74% 64%) 67%,
+  hsl(33deg 76% 58%) 75%,
+  hsl(32deg 81% 56%) 83%,
+  hsl(30deg 85% 55%) 92%,
+  hsl(29deg 90% 53%) 100%
+);
+      height: 611px;
+      margin-bottom: -16px;
+}
+.btn2{
+    width: 282px;
+    height: 70px;
+    color: white;
+    background-color: orange;
+    border-radius: 46px;
+    font-size: 24px;
+    border: 1px;
+    margin-left: 205px;
+    margin-top: 41px;
+    font-weight: 700;
+}
+.banner-head2{
+    font-size: 54px;
+    margin-top: 133px;
+}
+#ban1 img{
+    width: 99%;
+    height: 546px;
+    border-radius: 53px;
+    margin-top: 54px;
+}
+.banner-head3 {
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 3px;
+    font-weight: 500;
+}

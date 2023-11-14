@@ -1,0 +1,44 @@
+<!-- search section -->
+<form class="d-flex" role="search">
+  <div class="d-flex">
+  <input (keyup)="search($event)" class="form-control me-2" type="text" placeholder="Search Employees" aria-label="Search" id="searching">
+</div>
+<div class="searchButtonDiv" >
+  <button type="submit" class="searchButton btn  ms-1 rounded">
+    <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+  </button>
+</div>
+</form>
+
+<!-- card section -->
+<div class="container">
+  <!-- {{allEmployee|json}} -->
+    <div class="row">
+        <div class="card" *ngFor="let employee of allEmployee |filter:searchKey:'name'" style="width: 18rem; margin-top: 5rem; margin: 21px;">
+            <img [src]="employee.photourl" class="mainimg" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{employee.name}}</h5>
+              <p class="card-text">{{employee.Position}}</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><span class="txt"> Phone :</span><span class="text">{{employee.phone}}</span></li>
+      <li class="list-group-item"><span class="txt">Email :</span> <span class="text1">{{employee.email}}</span></li>
+            </ul>
+            <!-- card buttons -->
+
+
+              <div>
+                <!-- View -->
+                <span><button routerLink="/EMPLOYEEMANAGEMENTSYSTEM/VIEW/{{employee.id}}" class="btn3"><i class="fa-solid fa-eye" style="color: #000000;"></i></button></span>
+                <!-- Edit -->
+           <span><button routerLink="/EMPLOYEEMNAGEMENTSYSTEM/EDITEMPLOYEE/{{employee.id}}" class="btn4"><i class="fa-solid fa-pen-to-square" style="color: #000000;"></i></button></span>
+           <!-- Delete -->
+           <span><button (click)="deleteemployee(employee.id)" class="btn5"><i class="fa-solid fa-trash" style="color: #000000;"></i></button></span>
+              </div>
+           
+    </div>
+</div>
+<!-- Add Employee -->
+<div class="addEmp text-center">
+  <button routerLink="/EMPLOYEE MANAGEMENTSYSTEM/ADDEMPLOYEE" class="btn6">ADD EMPLOYEE</button>
+</div>

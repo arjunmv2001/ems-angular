@@ -1,0 +1,83 @@
+.text{
+    margin-left: 15px;
+    
+}
+.text1{
+    margin-left: 22px;
+}
+.btn3{
+    width: 58px;
+    height: 28px;
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid #f09413;
+    margin-top: 17px;
+    margin-left: 9px;
+    margin-bottom: 18px;
+}
+.btn4{
+    width: 58px;
+    height: 28px;
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid #f09413;
+    margin-top: 17px;
+    margin-left: 29px;
+}
+.btn5{
+    width: 58px;
+    height: 28px;
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid #f09413;
+    margin-top: 17px;
+    margin-left: 29px;
+}
+span{
+    margin: 2px;
+}
+#searching{
+   
+    width: 38rem;
+    margin-top: 3rem;
+    /* margin-left: 28rem; */
+    /* padding-left: 1rem; */
+
+}
+
+.d-flex {
+    justify-content: center;
+}
+
+
+.searchButton{
+    margin-top: 3.11rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    padding-left: 0.4rem;
+    padding-right: 0.5rem;
+}
+.searchButtonDiv{
+    margin-left: -3.3rem;
+    margin-top: 2px;
+}
+.btn6{
+    width: 300px;
+    height: 52px;
+    border-radius: 7px;
+    border: 2px solid #f09413;
+    /* margin-left: 33rem; */
+    margin-top: 2rem;
+    background-color: white;
+    transition: all 0.15s;
+}
+.btn6:hover{
+    background-color:#f09413 ;
+    color: white;
+}
+.mainimg{
+    width: 287px;
+    margin-left: -12px;
+    border-radius: 2px;
+    height: 195px;
+}

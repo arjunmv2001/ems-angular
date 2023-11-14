@@ -1,0 +1,78 @@
+
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <img src="https://cdn.icon-icons.com/icons2/3708/PNG/512/man_person_people_avatar_icon_230017.png" alt="" >
+        </div>
+
+<div class="col-6">
+                     <!-- form -->
+                     <form>
+                        <div class="form-floating mb-3">
+                            <input [(ngModel)]="employe.name" name="name" type="text" class="form-control" id="floatingfullname" placeholder="Full Name">
+                            <label for="floatingInput">Full Name</label>
+                          </div>
+        
+                          <!-- Photo Url -->
+        
+                          <div class="form-floating mb-3">
+                            <input [(ngModel)]="employe.email"  name="Photo" type="text" class="form-control" id="floatingphotourl" placeholder="Photo url">
+                            <label for="floatingphoto">Email address</label>
+                          </div>
+                        
+                          <!-- email -->
+        
+                          <div class="form-floating mb-3">
+                            <input [(ngModel)]="employe.phone"  name="email" type="email" class="form-control" id="floatingemail" placeholder="name@example.com">
+                            <label for="floatingInput">Mobile</label>
+                          </div>
+        
+                          
+                          <!-- Mobile -->
+        
+                          <div class="form-floating mb-3">
+                            <input [(ngModel)]="employe.Position" name="phone" type="text" class="form-control" id="floatingmobile" placeholder="Mobile">
+                            <label for="floatingphoto">Position</label>
+                          </div>
+        
+                          <!-- Company Name -->
+                          <div class="form-floating mb-3">
+                            <input [(ngModel)]="employe.dateofjoining" name="Company" type="date" class="form-control" id="floatingcompany" placeholder="Company Name">
+                            <label for="floatingphoto">Date of joining</label>
+                          </div>
+        
+                          <!-- Title -->
+        
+                          <div class="form-floating mb-3">
+                            <input [(ngModel)]="employe.photourl" name="title" type="email" class="form-control" id="floatingtitle" placeholder="Title">
+                            <label for="floatingInput">Photo link</label>
+                          </div>
+        
+                          <!-- group -->
+                          <div class="mb-3 form-floating">
+                            <select [(ngModel)]="employe.GroupId" name="groupid" class="form-control">
+                                <option selected hidden disabled>{{employe.GroupId}}</option>
+                                <!-- <option>select</option> -->
+                                <option [value]="emp.id" *ngFor="let emp of allGroups">{{emp.name}}</option>
+                                <!-- <option value="">Sales Department</option>
+                                <option value="">IT Department</option>
+                                <option value="">Accounts Department</option> -->
+
+
+                            </select>
+                          </div>
+        
+        
+                          <!-- button -->
+                          <div class="text-center">
+                            <button (click)="addEmployee()" routerLink="/EMPLOYEEMANAGEMENTSYSTEM/CurrentEmployees" class="btn7">SUBMIT</button>
+                          </div>
+               
+               <!-- </div>
+         -->
+        <!-- </div> -->
+        </form>   
+</div>
+
+
+
